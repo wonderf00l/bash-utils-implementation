@@ -1,0 +1,2 @@
+clang-format -i cat/*.c grep/*.c grep/*.h common/arg_parser/* common/file_handler/*
+#cppcheck --enable=all --suppress=missingIncludeSystem cat/*.c grep/*.c grep/*.h common/arg_parser/* common/file_handler/*
